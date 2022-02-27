@@ -54,6 +54,6 @@ public class DatesToCronParser implements DatesToCronConverter {
     @Override
     public String getImplementationInfo() {
         Class<DatesToCronParser> clazz = DatesToCronParser.class;
-        return String.join(", ",AUTHOR_NAME, clazz.getSimpleName(), clazz.getPackage().getName(), GITHUB_LINK);
+        return String.join(", ", AUTHOR_NAME, clazz.getSimpleName(), clazz.getPackage().getName(), GITHUB_LINK);
     }
 }
